@@ -100,6 +100,10 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             contentAlignment = Alignment.Center
         ) {
             Column() {
+                Row(
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
 
             }
         }
