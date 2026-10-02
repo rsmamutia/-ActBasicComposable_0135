@@ -23,5 +23,8 @@ fun TugasLogin() {
             painter = logo,
             contentDescription = null
         )
+        Text(
+            text = "Nama"
+        )
     }
 }
