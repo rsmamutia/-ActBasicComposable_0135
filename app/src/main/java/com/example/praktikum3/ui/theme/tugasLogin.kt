@@ -6,6 +6,9 @@ import androidx.compose.material3.Text
 import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
 import com.example.praktikum3.R
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun TugasLogin() {
@@ -14,7 +17,10 @@ fun TugasLogin() {
     )
     Column {
         Text(
-            text = "Login"
+            text = "Login",
+            fontSize = 30.sp,
+            color = Color.Blue,
+            fontWeight = FontWeight.Bold
         )
         Text(
             text = "Ini adalah halaman login,"
@@ -24,7 +30,9 @@ fun TugasLogin() {
             contentDescription = null
         )
         Text(
-            text = "Nama"
+            text = "Nama",
+            fontSize = 18.sp,
+            color = Color.Red
         )
         Text(
             text = "Risma Mutia Dewi"
