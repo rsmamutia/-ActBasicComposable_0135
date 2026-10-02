@@ -29,5 +29,8 @@ fun TugasLogin() {
         Text(
             text = "Risma Mutia Dewi"
         )
+        Text(
+            text = "20240140135"
+        )
     }
 }
