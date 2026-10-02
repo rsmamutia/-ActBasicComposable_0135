@@ -35,10 +35,16 @@ fun TugasLogin() {
             color = Color.Red
         )
         Text(
-            text = "Risma Mutia Dewi"
+            text = "Risma Mutia Dewi",
+            fontSize = 18.sp,
+            color = Color.Blue,
+            fontWeight = FontWeight.Bold
         )
         Text(
-            text = "20240140135"
+            text = "20240140135",
+            fontSize = 24.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Bold
         )
     }
 }
